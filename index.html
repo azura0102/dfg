@@ -1,3 +1,185 @@
-kshbfdjhfvbgfnalsdkmnbf jkn
-kadsj
-sfjsdjfgasjfgsdhfgsjh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .line{
+            width: 20px;
+            height: 3px;
+            background-color: grey;
+            margin: 5px;
+            display: flex;
+        }
+        .container{
+            width: 100vw;
+            height: 50px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+        }
+        .className{
+            color: grey;
+            font-size: 25px;
+        }
+        .button{
+            width: 30px;
+            height: 30px;
+            margin: 20px;
+            border-radius: 50%;
+        }
+        .box{
+            width: 80px;
+            height: 60px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: grey;
+        }
+        .boxContainer{
+            margin: 200px;
+            display: flex;
+            justify-content:  center;
+            position: absolute;
+            left: 35vw;
+        }
+        .circle{
+            width: 5px;
+            height: 5px;
+            background-color: grey;
+            border-radius: 50%;
+            margin: 1px;
+        }
+        .dice{
+            width: 25px;
+            height: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1px;
+            position: absolute;
+            left: 95vw;
+            border-radius: 50%;
+        }
+        img{
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+        .profile{
+            position: absolute;
+            left: 97vw;
+        }
+        .box:hover{
+            color:rgba(0, 110, 255, 0.962);
+            background-color: rgb(213, 213, 213);
+        }
+        .button:hover{
+            /* box-shadow: 10px 10px 50px 10px grey; */
+            background-color: rgb(221, 221, 221)
+        }
+        .classLink:hover{
+            color: rgba(0, 110, 255, 0.962);
+            text-decoration: underline;
+        }
+        .midContainer{
+            width: 100vw;
+            position: absolute;
+            top: 100px;
+            display: flex;
+            justify-content: center;
+        }
+        .boxName{
+            width: 800px;
+            height: 250px;
+            background-color:rgba(0, 110, 255, 0.962);
+            color: white;
+            font-size: 40px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .lastContainer{
+            width: 200px;
+            position: absolute;
+            top: 400px;
+        }
+        .upBox{
+            width: 200px;
+            height: 110px;
+            border: 1px solid grey;
+            border-radius: 10px;
+            color: grey;
+            position: absolute;
+            left: 32vw;
+        }
+        .upcoming{
+            color: black;
+            margin: 10px;
+        }
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .view{
+            width: 60px;
+            height: 20px;
+            color: rgba(0, 110, 255, 0.962);
+            position: relative;
+            top: 0px;
+            left: 110px;
+            border-radius: 5px;
+        }
+        .view:hover{
+            background-color: rgb(213, 213, 213) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <box class="button">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </box>
+        <div class="className">
+            <p class="classLink">Level 1 HOP Dachka&Zolboo</p>
+        </div>
+        <div class="boxContainer">
+            <div class="box">Stream</div>
+            <div class="box">Classroom</div>
+            <div class="box">People</div>
+        </div>
+        <div class="dice">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="profile">
+            <img src="../Desktop/profile.png">
+        </div>
+        <div class="midContainer">
+            <div class="boxName">Level 1 HOP Dashka&Zolboo</div>
+        </div>
+        <div class="lastContainer">
+            <div class="upBox">
+                <p class="upcoming">Upcoming</p>
+                <p class="text">Woohoo, no work due soon!</p>
+                <div class="view"><p>View all</p></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
